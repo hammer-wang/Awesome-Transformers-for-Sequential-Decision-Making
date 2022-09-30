@@ -39,6 +39,8 @@ While we were preparing this repo, we noticed the [Awesome-Reinforcement-Learnin
 
 ## Papers
 
+:warning: 09/29/2022: some paper summaries are short and we are still actively improving them.
+
 ### Decision Transformer: Reinforcement Learning via Sequence Modeling
 
 **NeurIPS'21** [[Paper]](https://arxiv.org/abs/2106.01345) [[Code]](https://github.com/kzl/decision-transformer)  
@@ -186,7 +188,7 @@ Use discrete autoencoder and Transformer to learn world models.
 
 ### You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environments
 
-**arXiv** [[Paper]](https://arxiv.org/abs/2205.15967  
+**arXiv** [[Paper]](https://arxiv.org/abs/2205.15967)  
 
 Issues of transformers in stochastic environment. The proposed method learns to cluster trajectories and conditions on average cluster returns.  
 
@@ -204,10 +206,11 @@ A generative transformer-based architecture for pretraining with robot data in a
 
 ### When does return-conditioned supervised learning work for offline reinforcement learning?  
 
-**arXiv'22** [[Paper]](https://arxiv.org/abs/2206.01079)
+**arXiv** [[Paper]](https://arxiv.org/abs/2206.01079)
 
 This paper provides a study of the capabilities and limitations of return-conditioned supervised learning for RL.  
 
 ## Other Resources  
 
-* [Stanford CS25: Decision Transformers Lecture](https://www.youtube.com/watch?v=w4Bw8WYL8Ps&list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM&index=4)
+- [Amazon Accessible RL SDK](https://github.com/awslabs/amazon-accessible-rl-sdk): an open-source Python package for sequential decision making with transformers.  
+- [Stanford CS25: Decision Transformers Lecture](https://www.youtube.com/watch?v=w4Bw8WYL8Ps&list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM&index=4)  
