@@ -13,7 +13,7 @@ While we were preparing this repo, we noticed the [Awesome-Reinforcement-Learnin
     - [Prompting Decision Transformer for Few-Shot Policy Generalization](#prompting-decision-transformer-for-few-shot-policy-generalization)
     - [Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning](#addressing-optimism-bias-in-sequence-modeling-for-reinforcement-learning)
     - [Can Wikipedia help offline reinforcement learning?](#can-wikipedia-help-offline-reinforcement-learning)
-    - [A Generalist Agent**](#a-generalist-agent)
+    - [A Generalist Agent](#a-generalist-agent)
     - [Bootstrapped Transformer for Offline Reinforcement Learning](#bootstrapped-transformer-for-offline-reinforcement-learning)
     - [Towards Flexible Inference in Sequential Decision Problems via Bidirectional Transformers](#towards-flexible-inference-in-sequential-decision-problems-via-bidirectional-transformers)
     - [Phasic Self-Imitative Reduction for Sparse-Reward Goal-Conditioned Reinforcement Learning](#phasic-self-imitative-reduction-for-sparse-reward-goal-conditioned-reinforcement-learning)
@@ -79,7 +79,7 @@ This work combines VAE and TT for policy learning in stochastic environment.
 
 Training transformers on RL datasets from scratch could lead to slow convergence. This paper studies whether it’s possible to transfer knowledge from vision and language domains to offline RL tasks. The authors show that wikipedia pretraining can improve the convergence by 3-6x.  
 
-### A Generalist Agent**
+### A Generalist Agent
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2205.06175)
 
