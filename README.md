@@ -1,4 +1,4 @@
-# Awesome Transformers for Reinforcement Learning
+# Transformers for Reinforcement Learning
 
 This repo tracks literature on transformers for reinforcement learning. Though we are trying our best to include all relevant works, it's possible that we might have missed your work. Please feel free to create an issue if you want your work to be added.
 
