@@ -2,6 +2,10 @@
 
 This repo summarizes literature and additional online resources on transformers for reinforcement learning. Though we are trying our best to include all relevant works, it's possible that we might have missed your work. Please feel free to create an issue if you want your work to be added.
 
+## Table of Contents
+1. [Papers](#Papers)
+2. [Other Resources](#Other-resources)
+
 ## Papers
 
 ### Decision Transformer: Reinforcement Learning via Sequence Modeling
@@ -35,7 +39,7 @@ This is another seminal work on applying transformers to RL and it was concurren
 
 
 ## A Generalist Agent**
-arXiv [[Paper]](https://arxiv.org/abs/2111.10364) [[Code]](https://github.com/frt03/generalized_dt)
+**arXiv** [[Paper]](https://arxiv.org/abs/2111.10364) [[Code]](https://github.com/frt03/generalized_dt)
 
 **Bootstrapped Transformer for Offline Reinforcement Learning**
 asdf
