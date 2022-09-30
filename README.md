@@ -36,6 +36,7 @@ While we were preparing this repo, we noticed the [Awesome-Reinforcement-Learnin
     - [PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pre-Training](#pact-perception-action-causal-transformer-for-autoregressive-robotics-pre-training)
     - [When does return-conditioned supervised learning work for offline reinforcement learning?](#when-does-return-conditioned-supervised-learning-work-for-offline-reinforcement-learning)
   - [Other Resources](#other-resources)
+  - [License](#license)
 
 ## Papers
 
@@ -214,3 +215,7 @@ This paper provides a study of the capabilities and limitations of return-condit
 
 - [Amazon Accessible RL SDK](https://github.com/awslabs/amazon-accessible-rl-sdk): an open-source Python package for sequential decision making with transformers.  
 - [Stanford CS25: Decision Transformers Lecture](https://www.youtube.com/watch?v=w4Bw8WYL8Ps&list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM&index=4)  
+
+## License  
+
+This repo is released under Apache License 2.0.  
