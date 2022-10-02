@@ -99,7 +99,7 @@ Applied random masking to pretrain transformers for RL.
 
 ### Phasic Self-Imitative Reduction for Sparse-Reward Goal-Conditioned Reinforcement Learning
 
-*ICML'22** [[Paper]](https://arxiv.org/abs/2204.13326)  
+**ICML'22** [[Paper]](https://arxiv.org/abs/2204.13326)  
 
 Alternating between online and offline learning for tackling sparse-reward goal-conditioned problems.  
 
