@@ -35,6 +35,17 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Hierarchical Decision Transformer](#hierarchical-decision-transformer)
     - [PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pre-Training](#pact-perception-action-causal-transformer-for-autoregressive-robotics-pre-training)
     - [When does return-conditioned supervised learning work for offline reinforcement learning?](#when-does-return-conditioned-supervised-learning-work-for-offline-reinforcement-learning)
+    - [Deep Transformer Q-Networks for Partially Observable Reinforcement Learning](#deep-transformer-q-networks-for-partially-observable-reinforcement-learning)
+    - [Contextual transformer for offline reinforcement learning](#contextual-transformer-for-offline-reinforcement-learning)
+    - [MCTransformer: combining transformers and monte-carlo tree search for offline reinforcement learning](#mctransformer-combining-transformers-and-monte-carlo-tree-search-for-offline-reinforcement-learning)
+    - [Pretraining the vision transformer using self-supervised methods for vision based deep reinforcement learning](#pretraining-the-vision-transformer-using-self-supervised-methods-for-vision-based-deep-reinforcement-learning)
+    - [Preference Transformer: Modeling Human Preferences using Transformers for RL](#preference-transformer-modeling-human-preferences-using-transformers-for-rl)
+    - [Skill discovery decision transformer](#skill-discovery-decision-transformer)
+    - [Decision transformer under random frame dropping](#decision-transformer-under-random-frame-dropping)
+    - [Token turing machines](#token-turing-machines)
+    - [SMART: self-supervised multi-task pretraining with control transformers](#smart-self-supervised-multi-task-pretraining-with-control-transformers)
+    - [Hyper-decision transformer for efficient online policy adaptation](#hyper-decision-transformer-for-efficient-online-policy-adaptation)
+    - [Multi-agent multi-game entity transformer](#multi-agent-multi-game-entity-transformer)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -210,6 +221,50 @@ A generative transformer-based architecture for pretraining with robot data in a
 **arXiv** [[Paper]](https://arxiv.org/abs/2206.01079)
 
 This paper provides a study of the capabilities and limitations of return-conditioned supervised learning for RL.  
+
+### Deep Transformer Q-Networks for Partially Observable Reinforcement Learning
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/forum?id=cddqs4kvC20)
+
+### Contextual transformer for offline reinforcement learning
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=7pl0FRiS0Td)
+
+### MCTransformer: combining transformers and monte-carlo tree search for offline reinforcement learning
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=-94tJCOo7OM)
+
+### Pretraining the vision transformer using self-supervised methods for vision based deep reinforcement learning
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=CEhy-i7_KfC)
+
+### Preference Transformer: Modeling Human Preferences using Transformers for RL
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/forum?id=Peot1SFDX0)
+
+### Skill discovery decision transformer
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=mb7PtrUbHa)
+
+### Decision transformer under random frame dropping
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=NmZXv4467ai)
+
+### Token turing machines
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=3m_awcLrg8E)
+
+### SMART: self-supervised multi-task pretraining with control transformers
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=9piH3Hg8QEf)
+
+### Hyper-decision transformer for efficient online policy adaptation
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=AatUEvC-Wjv)
+
+### Multi-agent multi-game entity transformer
+
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=cytNlkyjWOq)
 
 ## Other Resources  
 
