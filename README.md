@@ -222,25 +222,37 @@ A generative transformer-based architecture for pretraining with robot data in a
 
 This paper provides a study of the capabilities and limitations of return-conditioned supervised learning for RL.  
 
+--------
+
 ### Deep Transformer Q-Networks for Partially Observable Reinforcement Learning
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/forum?id=cddqs4kvC20)
+
+--------
 
 ### Contextual transformer for offline reinforcement learning
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=7pl0FRiS0Td)
 
+--------
+
 ### MCTransformer: combining transformers and monte-carlo tree search for offline reinforcement learning
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=-94tJCOo7OM)
+
+--------
 
 ### Pretraining the vision transformer using self-supervised methods for vision based deep reinforcement learning
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=CEhy-i7_KfC)
 
+--------
+
 ### Preference Transformer: Modeling Human Preferences using Transformers for RL
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/forum?id=Peot1SFDX0)
+
+--------
 
 ### Skill discovery decision transformer
 
