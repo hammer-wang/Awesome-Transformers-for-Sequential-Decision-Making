@@ -350,6 +350,14 @@ This paper provides a study of the capabilities and limitations of return-condit
 
 - [Amazon Accessible RL SDK](https://github.com/awslabs/amazon-accessible-rl-sdk): an open-source Python package for sequential decision making with transformers.  
 - [Stanford CS25: Decision Transformers Lecture](https://www.youtube.com/watch?v=w4Bw8WYL8Ps&list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM&index=4)  
+- Benchmark Environments
+  - [D4RL](https://github.com/Farama-Foundation/D4RL)
+  - [MuJoco](https://mujoco.org/)
+  - [DM-Control](https://github.com/deepmind/dm_control)
+  - [CARLA](https://leaderboard.carla.org/)
+  - [SMAC - StarCraft Multi-Agent Challenge](https://github.com/oxwhirl/smac)
+  - [MiniGrid](https://github.com/Farama-Foundation/Minigrid)
+  - [C-MAPSS Aricraft Engine Simulator Data](https://data.nasa.gov/dataset/C-MAPSS-Aircraft-Engine-Simulator-Data/xaut-bemq)
 
 ## License  
 
