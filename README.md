@@ -56,27 +56,37 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 ### Decision Transformer: Reinforcement Learning via Sequence Modeling
 
 **NeurIPS'21** [[Paper]](https://arxiv.org/abs/2106.01345) [[Code]](https://github.com/kzl/decision-transformer)  
-A seminal work that proposed a supervised learning framework based on transformers for sequential decision making tasks. It tackles RL as a sequence generation task. Given a pre-collected sequence decision making dataset, the Decision Transformer (DT) is trained to generated the action sequence that can lead to the expected return-to-go, which is used as the input to the transformer model.
+A seminal work that proposed a supervised learning framework based on transformers for sequential decision making tasks. It tackles RL as a sequence generation task. Given a pre-collected sequence decision making dataset, the Decision Transformer (DT) is trained to generated the action sequence that can lead to the expected return-to-go, which is used as the input to the transformer model.  
+
+--------
 
 ### Offline Reinforcement Learning as One Big Sequence Modeling Problem
 
 **NeurIPS'21** [[Paper]](https://arxiv.org/abs/2106.02039) [[Code]](https://github.com/JannerM/trajectory-transformer)  
-This is another seminal work on applying transformers to RL and it was concurrent to Decision Transformer. The authors proposed Trajectory Transformer (TT) that combines transformers and beam search as a model-based approach for offline RL.
+This is another seminal work on applying transformers to RL and it was concurrent to Decision Transformer. The authors proposed Trajectory Transformer (TT) that combines transformers and beam search as a model-based approach for offline RL.  
+
+--------
 
 ### Generalized Decision Transformer for Offline Hindsight Information Matching
 
 **ICLR'22** [[Paper]](https://arxiv.org/abs/2111.10364) [[Code]](https://github.com/frt03/generalized_dt)  
-The paper derived a RL problem formulation called Hindsight Information Matching (HIM) from many recently proposed RL algorithms that use future trajectory information to accelerate the learning of a conditional policy. The authors discussed three HIM variations including Generalized DT, Categorical DT, and Bi-Directional DT.
+The paper derived a RL problem formulation called Hindsight Information Matching (HIM) from many recently proposed RL algorithms that use future trajectory information to accelerate the learning of a conditional policy. The authors discussed three HIM variations including Generalized DT, Categorical DT, and Bi-Directional DT.  
+
+--------
 
 ### Online Decision Transformer
 
 **ICML'22** [[Paper]](https://arxiv.org/abs/2202.05607) [[Code]](https://github.com/facebookresearch/online-dt)
-This work combines offline pretraining and online finetuning.
+This work combines offline pretraining and online finetuning.  
+
+--------
 
 ### Prompting Decision Transformer for Few-Shot Policy Generalization
 
 **ICML'22** [[Paper]](https://arxiv.org/abs/2206.13499) [[Code]](https://github.com/mxu34/prompt-dt)  
 The authors introduced prompt to DT for few-shot policy learning.  
+
+--------
 
 ### Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning
 
@@ -84,17 +94,23 @@ The authors introduced prompt to DT for few-shot policy learning.
 
 This work combines VAE and TT for policy learning in stochastic environment.  
 
+--------
+
 ### Can Wikipedia help offline reinforcement learning?
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2206.08569) [[Code]](https://github.com/machelreid/can-wikipedia-help-offline-rl)  
 
 Training transformers on RL datasets from scratch could lead to slow convergence. This paper studies whether it’s possible to transfer knowledge from vision and language domains to offline RL tasks. The authors show that wikipedia pretraining can improve the convergence by 3-6x.  
 
+--------
+
 ### A Generalist Agent
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2205.06175)
 
-A transformer-based RL agent (GATO) is trained on multi-modal data to perform robot manipulation, chat, play Atari games, caption images simultaneously. The agent will determine by itself what to output based on its context.
+A transformer-based RL agent (GATO) is trained on multi-modal data to perform robot manipulation, chat, play Atari games, caption images simultaneously. The agent will determine by itself what to output based on its context.  
+
+--------
 
 ### Bootstrapped Transformer for Offline Reinforcement Learning
 
@@ -102,11 +118,15 @@ A transformer-based RL agent (GATO) is trained on multi-modal data to perform ro
 
 To address the offline data limitation, this paper uses the learned dynamics model to generate data. It’s a data augmentation method. It uses trajectory transformer as the model.  
 
+--------
+
 ### Towards Flexible Inference in Sequential Decision Problems via Bidirectional Transformers
 
 **ICLR'22 Generalizable Policy Learning in the Physical World Workshop** [[Paper]](https://arxiv.org/abs/2204.13326)  
 
-Applied random masking to pretrain transformers for RL.
+Applied random masking to pretrain transformers for RL.  
+
+--------
 
 ### Phasic Self-Imitative Reduction for Sparse-Reward Goal-Conditioned Reinforcement Learning
 
@@ -114,11 +134,15 @@ Applied random masking to pretrain transformers for RL.
 
 Alternating between online and offline learning for tackling sparse-reward goal-conditioned problems.  
 
+--------
+
 ### Behavior Transformers: Cloning k modes with one stone
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2206.11251) [[Code]](https://github.com/notmahi/bet)  
 
 The authors proposed Behavior Transformer to model unlabeled demonstration data with multiple modes. It introduces action correction to predict multi-modal continuous actions.  
+
+--------
 
 ### Deep Reinforcement Learning with Swin Transformer
 
@@ -126,11 +150,15 @@ The authors proposed Behavior Transformer to model unlabeled demonstration data 
 
 This paper studies replacing the convolutional neural networks used in online RL with Swin Transformer and show that it leads to better performance.  
 
+--------
+
 ### Efficient Planning in a Compact Latent Action Space
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2208.10291)  
 
 This work combines VQ-VAE with TT to allow efficient planning in the latent space.  
+
+--------
 
 ### Going Beyond Linear Transformers with Recurrent Fast Weight Programmers
 
@@ -138,11 +166,15 @@ This work combines VQ-VAE with TT to allow efficient planning in the latent spac
 
 A new transformer architecture is proposed and experiments on RL show large improvement over LSTM in several Atari games.  
 
+--------
+
 ### GPT-critic: offline reinforcement learning for end-to-end task-oriented dialogue systems
 
 **ICLR'22** [[Paper]](https://openreview.net/pdf?id=qaxhBG1UUaS)
 
 GPT-2 trained in an offline RL manner for dialogue generation.  
+
+--------
 
 ### Multi-Game Decision Transformers
 
@@ -150,11 +182,15 @@ GPT-2 trained in an offline RL manner for dialogue generation.
 
 Similar to GATO, this paper studies the applying a single transformer-based RL agent to play multiple games.  
 
+--------
+
 ### Offline pre-trained multi-agent decision transformer: one big sequence model tackles all smac tasks
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2112.02845)  
 
 The authors studies offline pre-training and online finetuning in the MARL setting. The authors show that offline pretraining significantly improves sample efficiency.  
+
+--------
 
 ### Q-learning Decision Transformer: Leveraging Dynamic Programming for Conditional Sequence Modelling in Offline RL
 
@@ -162,11 +198,15 @@ The authors studies offline pre-training and online finetuning in the MARL setti
 
 This works combined dynamics programming with decision transformer to introduce the stitching ability.  
 
+--------
+
 ### StARformer: Transformer with State-Action-Reward Representations for Robot Learning
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2209.03993)  
 
 Proposed a transformer architecture for robot learning representations.  
+
+--------
 
 ### Switch Trajectory Transformer with Distributional Value Approximation for Multi-Task Reinforcement Learning
 
@@ -174,11 +214,15 @@ Proposed a transformer architecture for robot learning representations.
 
 Multi-task offline RL problems. The value function is modeled as a distribution.  
 
+--------
+
 ### Transfer learning with causal counterfactual reasoning in Decision Transformers
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2110.14355)  
 
 Transfer a learned policy to a new environments.  
+
+--------
 
 ### Transformers are Adaptable Task Planners
 
@@ -186,11 +230,15 @@ Transfer a learned policy to a new environments.
 
 Prompt-based task planning.  
 
+--------
+
 ### Transformers are Meta-Reinforcement Learners
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2206.06614)  
 
 Applied transformers for meta-RL.  
+
+--------
 
 ### Transformers are Sample Efficient World Models
 
@@ -198,11 +246,15 @@ Applied transformers for meta-RL.
 
 Use discrete autoencoder and Transformer to learn world models.  
 
+--------
+
 ### You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environments
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2205.15967)  
 
 Issues of transformers in stochastic environment. The proposed method learns to cluster trajectories and conditions on average cluster returns.  
+
+--------
 
 ### Hierarchical Decision Transformer
 
@@ -210,11 +262,15 @@ Issues of transformers in stochastic environment. The proposed method learns to 
 
 A hierarchical decision transformer that has both a high-level and a low-level controller.  
 
+--------
+
 ### PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pre-Training
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2209.11133)  
 
 A generative transformer-based architecture for pretraining with robot data in a self-supervised manner.  
+
+--------
 
 ### When does return-conditioned supervised learning work for offline reinforcement learning?  
 
@@ -258,25 +314,37 @@ This paper provides a study of the capabilities and limitations of return-condit
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=mb7PtrUbHa)
 
+--------
+
 ### Decision transformer under random frame dropping
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=NmZXv4467ai)
+
+--------
 
 ### Token turing machines
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=3m_awcLrg8E)
 
+--------
+
 ### SMART: self-supervised multi-task pretraining with control transformers
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=9piH3Hg8QEf)
+
+--------
 
 ### Hyper-decision transformer for efficient online policy adaptation
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=AatUEvC-Wjv)
 
+--------
+
 ### Multi-agent multi-game entity transformer
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=cytNlkyjWOq)
+
+--------
 
 ## Other Resources  
 
