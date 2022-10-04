@@ -260,7 +260,7 @@ Issues of transformers in stochastic environment. The proposed method learns to 
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2209.10447)  
 
-A hierarchical decision transformer that has both a high-level and a low-level controller.  
+The original DT highly depends on a carefully chosen return-to-go as the initial input to condition on. To address this challenge, this work proposed to predict subgoals (or options) to replace the return-to-go. Two transformers are trained together while one is used for predicting the subgoals and the the other one is used to predict actions conditioned on the subgoals. Through experiments on D4RL, the authors show that this hierarchical approach can outperform the original DT, especially in tasks that invovle long episodes. 
 
 --------
 
