@@ -6,6 +6,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 
 - [Transformers for Reinforcement Learning](#transformers-for-reinforcement-learning)
   - [Papers](#papers)
+    - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
     - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
     - [Offline Reinforcement Learning as One Big Sequence Modeling Problem](#offline-reinforcement-learning-as-one-big-sequence-modeling-problem)
     - [Generalized Decision Transformer for Offline Hindsight Information Matching](#generalized-decision-transformer-for-offline-hindsight-information-matching)
@@ -54,6 +55,14 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 
 :warning: 09/29/2022: some paper summaries are short and we are still actively improving them.
 
+### Stabilizing Transformers for Reinforcement Learning
+
+**ICML'20** [[Paper]](http://proceedings.mlr.press/v119/parisotto20a/parisotto20a.pdf)  
+
+This work aims to replace LSTM used in online RL with Transformers. The authors observed that training large-scale transformers in RL settings is unstable. Thus they proposed the Gate Transformer-XL architecture and showed that the novel architecture outperformed LSTMs in the DMLab-30 benchmark with a good training stability. 
+
+--------
+
 ### Decision Transformer: Reinforcement Learning via Sequence Modeling
 
 **NeurIPS'21** [[Paper]](https://arxiv.org/abs/2106.01345) [[Code]](https://github.com/kzl/decision-transformer)  
@@ -85,7 +94,8 @@ DT solves reinforcement learning through supervised learning. It was hypothesize
 
 ### Online Decision Transformer
 
-**ICML'22** [[Paper]](https://arxiv.org/abs/2202.05607) [[Code]](https://github.com/facebookresearch/online-dt)
+**ICML'22** [[Paper]](https://arxiv.org/abs/2202.05607) [[Code]](https://github.com/facebookresearch/online-dt)  
+
 This work combines offline pretraining and online finetuning.  
 
 --------
@@ -93,6 +103,7 @@ This work combines offline pretraining and online finetuning.
 ### Prompting Decision Transformer for Few-Shot Policy Generalization
 
 **ICML'22** [[Paper]](https://arxiv.org/abs/2206.13499) [[Code]](https://github.com/mxu34/prompt-dt)  
+ 
 The authors introduced prompt to DT for few-shot policy learning.  
 
 --------
@@ -141,7 +152,7 @@ Applied random masking to pretrain transformers for RL.
 
 **ICML'22** [[Paper]](https://arxiv.org/abs/2204.13326)  
 
-Alternating between online and offline learning for tackling sparse-reward goal-conditioned problems.  
+This work combines online RL and offline SL. The online phase is used for both RL training and data collection. In the offline phase, only successful trajectories are used for SL. The authors show that this approach performs well in sparse-reward settings. The authors tested DT for the SL phase and found that it was brittle and performed worse than a simple BC. This result show that the DT training stability requires more research. 
 
 --------
 
@@ -205,7 +216,7 @@ The authors studies offline pre-training and online finetuning in the MARL setti
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2206.11251)  
 
-This works combined dynamics programming with decision transformer to introduce the stitching ability.  
+The original DT completely requires on supervised learning to learn a value-conditioned behavior policy. By increasing the condition value, DT could obtain greater returns than the maximum return in the offline dataset. However, the RCSL framework does not tap into trajectory stitching, i.e., combining sub-trajectories of multiple sub-optimal trajectories to obtain an optimal trajectory. In this paper, the authors combine Q-learning and DT. The estimated Q-values are used to relabel the return-to-gos in the training data.  
 
 --------
 
@@ -251,9 +262,9 @@ Applied transformers for meta-RL.
 
 ### Transformers are Sample Efficient World Models
 
-**arXiv** [[Paper]](https://arxiv.org/abs/2209.00588)  
+**arXiv** [[Paper]](https://arxiv.org/abs/2209.00588)  [[Code]](https://github.com/eloialonso/iris)  
 
-Use discrete autoencoder and Transformer to learn world models.  
+With the goal of improving sample efficiency of RL methods, the authors build a transformer model on Atari environments. They borrowed ideas from VQGAN and DALL-E to map raw image pixels to a much smaller amount of image tokens, which are used as the input to autoregressive transformers. After training the transformer world model, the RL agents then learns exclusively from the model imaginations.  
 
 --------
 
@@ -285,7 +296,7 @@ A generative transformer-based architecture for pretraining with robot data in a
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2206.01079)
 
-This paper provides a study of the capabilities and limitations of return-conditioned supervised learning for RL.  
+Focusing on offline reinforcement learning, the authors provide a study on the capabilities and limitations of return-conditioned supervised learning (RCSL). The authors found that RCSL requires assumptions stronger than the dynamic programming to return optimal policies. Specifically, the authors pointed out that RCSL requires nearly deterministic dynamics and proper condition values. The authors claim that RCSL alone is unlikely to be a general solution for offline RL problems. However, it may perform well with high quality behavior data.  
 
 --------
 
