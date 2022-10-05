@@ -79,7 +79,7 @@ The paper derived a RL problem formulation called Hindsight Information Matching
 
 **ICLR'22** [[Paper]](https://arxiv.org/pdf/2112.10751.pdf) [[Code]](https://github.com/scottemmons/rvs)  
 
-DT solves reinforcement learning through supervised learning. It was hypothesized that the large model capacity of transformers could lead to better policies. The authors of this paper challenged the hypothesis and showed that a simple two-layer feedforward MLP led to similar performance with transformer-based methods. The findings of this paper imply that current designs of transformer-based reinforcement learning algorithms may not fully leverage the potential advantages of transformers. 
+DT solves reinforcement learning through supervised learning. It was hypothesized that the large model capacity of transformers could lead to better policies. The authors of this paper challenged the hypothesis and showed that a simple two-layer feedforward MLP led to similar performance with transformer-based methods. The findings of this paper imply that current designs of transformer-based reinforcement learning algorithms may not fully leverage the potential advantages of transformers.  
 
 --------
 
