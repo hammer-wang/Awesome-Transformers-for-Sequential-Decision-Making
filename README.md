@@ -9,6 +9,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
     - [Offline Reinforcement Learning as One Big Sequence Modeling Problem](#offline-reinforcement-learning-as-one-big-sequence-modeling-problem)
     - [Generalized Decision Transformer for Offline Hindsight Information Matching](#generalized-decision-transformer-for-offline-hindsight-information-matching)
+    - [RvS: what is essential for offline RL via supervised learning?](#rvs-what-is-essential-for-offline-rl-via-supervised-learning)
     - [Online Decision Transformer](#online-decision-transformer)
     - [Prompting Decision Transformer for Few-Shot Policy Generalization](#prompting-decision-transformer-for-few-shot-policy-generalization)
     - [Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning](#addressing-optimism-bias-in-sequence-modeling-for-reinforcement-learning)
@@ -71,6 +72,14 @@ This is another seminal work on applying transformers to RL and it was concurren
 
 **ICLR'22** [[Paper]](https://arxiv.org/abs/2111.10364) [[Code]](https://github.com/frt03/generalized_dt)  
 The paper derived a RL problem formulation called Hindsight Information Matching (HIM) from many recently proposed RL algorithms that use future trajectory information to accelerate the learning of a conditional policy. The authors discussed three HIM variations including Generalized DT, Categorical DT, and Bi-Directional DT.  
+
+--------
+
+### RvS: what is essential for offline RL via supervised learning?
+
+**ICLR'22** [[Paper]](https://arxiv.org/pdf/2112.10751.pdf) [[Code]](https://github.com/scottemmons/rvs)  
+
+DT solves reinforcement learning through supervised learning. It was hypothesized that the large model capacity of transformers could lead to better policies. The authors of this paper challenged the hypothesis and showed that a simple two-layer feedforward MLP led to similar performance with transformer-based methods. The findings of this paper imply that current designs of transformer-based reinforcement learning algorithms may not fully leverage the potential advantages of transformers. 
 
 --------
 
@@ -260,7 +269,7 @@ Issues of transformers in stochastic environment. The proposed method learns to 
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2209.10447)  
 
-The original DT highly depends on a carefully chosen return-to-go as the initial input to condition on. To address this challenge, this work proposed to predict subgoals (or options) to replace the return-to-go. Two transformers are trained together while one is used for predicting the subgoals and the the other one is used to predict actions conditioned on the subgoals. Through experiments on D4RL, the authors show that this hierarchical approach can outperform the original DT, especially in tasks that invovle long episodes. 
+The original DT highly depends on a carefully chosen return-to-go as the initial input to condition on. To address this challenge, this work proposed to predict subgoals (or options) to replace the return-to-go. Two transformers are trained together while one is used for predicting the subgoals and the the other one is used to predict actions conditioned on the subgoals. Through experiments on D4RL, the authors show that this hierarchical approach can outperform the original DT, especially in tasks that invovle long episodes.  
 
 --------
 
