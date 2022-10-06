@@ -1,4 +1,5 @@
-# Awesome Transformers for Reinforcement Learning [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Transformers for Reinforcement Learning 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This repo tracks literature and additional online resources on transformers for reinforcement learning. We provide a short summary of each paper. Though we have tried our best to include all relevant works, it's possible that we might have missed your work. Please feel free to create an issue if you want your work to be added.
 
