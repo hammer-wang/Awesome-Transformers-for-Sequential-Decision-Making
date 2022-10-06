@@ -59,7 +59,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 
 **ICML'20** [[Paper]](http://proceedings.mlr.press/v119/parisotto20a/parisotto20a.pdf)  
 
-This work aims to replace LSTM used in online RL with Transformers. The authors observed that training large-scale transformers in RL settings is unstable. Thus they proposed the Gate Transformer-XL architecture and showed that the novel architecture outperformed LSTMs in the DMLab-30 benchmark with a good training stability. 
+One of the first works succssfully applying transformers in the RL settings. This work aims to replace LSTM used in online RL with Transformers. The authors observed that training large-scale transformers in RL settings is unstable. Thus they proposed the Gate Transformer-XL architecture and showed that the novel architecture outperformed LSTMs in the DMLab-30 benchmark with a good training stability.  
 
 --------
 
@@ -103,7 +103,7 @@ This work combines offline pretraining and online finetuning.
 ### Prompting Decision Transformer for Few-Shot Policy Generalization
 
 **ICML'22** [[Paper]](https://arxiv.org/abs/2206.13499) [[Code]](https://github.com/mxu34/prompt-dt)  
- 
+
 The authors introduced prompt to DT for few-shot policy learning.  
 
 --------
@@ -240,7 +240,7 @@ Multi-task offline RL problems. The value function is modeled as a distribution.
 
 **arXiv** [[Paper]](https://arxiv.org/abs/2110.14355)  
 
-Transfer a learned policy to a new environments.  
+The authors leverage the casual knowledge of a source environment's structure to generate a set of counterfactual environments to improve the agent's adaptability in new environments. 
 
 --------
 
@@ -304,23 +304,31 @@ Focusing on offline reinforcement learning, the authors provide a study on the c
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/forum?id=cddqs4kvC20)
 
+Recurrent neural networks are often used for encoding an agent's history when solving POMDP tasks. This paper proposed to replace the recurrent neural networks with transformers. Results show that transformers can solve POMDP faster and more stably than methods based on recurrent neural networks. 
+
 --------
 
 ### Contextual transformer for offline reinforcement learning
 
-**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=7pl0FRiS0Td)
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=7pl0FRiS0Td)  
+
+This paper proposed an approach for learning context vectors that can be used as prompts for the transformers. With the prompts, the authors developed a contextual meta transformers that can leverage the prompt as the task context to improve he performance on unseen tasks.  
 
 --------
 
 ### MCTransformer: combining transformers and monte-carlo tree search for offline reinforcement learning
 
-**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=-94tJCOo7OM)
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=-94tJCOo7OM)  
+
+The authors combine transformers and MCTS for efficient online finetuning. MCTS is used as an effective approach to balance exploration and exploitation.  
 
 --------
 
 ### Pretraining the vision transformer using self-supervised methods for vision based deep reinforcement learning
 
-**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=CEhy-i7_KfC)
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=CEhy-i7_KfC)  
+
+This work replaces CNNs used in image-based RL agents with pre-trained Vision Transformers. Interestingly, the authors found Vision Transformers still perform similarly or worse than CNNs.  
 
 --------
 
@@ -332,7 +340,9 @@ Focusing on offline reinforcement learning, the authors provide a study on the c
 
 ### Skill discovery decision transformer
 
-**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=mb7PtrUbHa)
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=mb7PtrUbHa)  
+
+This work applies unsupervised skill discovery to DT. The skill embedding is used as an input to the DT. This can be thought as a hierarchical RL approach. 
 
 --------
 
@@ -356,7 +366,9 @@ Focusing on offline reinforcement learning, the authors provide a study on the c
 
 ### Hyper-decision transformer for efficient online policy adaptation
 
-**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=AatUEvC-Wjv)
+**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=AatUEvC-Wjv)  
+
+This work focuses on adapting DT to unseen novel tasks. An adaptation module is added to the DT with its parameters initialized by a hyper-network. When adapting to a new task, only the parameters of the adaptation module is finetuned. The results show that adapting the module leads to faster learning than the 
 
 --------
 
