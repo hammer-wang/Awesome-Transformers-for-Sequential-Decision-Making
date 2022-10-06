@@ -1,11 +1,12 @@
-# Awesome Transformers for Reinforcement Learning 
+# Awesome Transformers for Reinforcement Learning  
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 This repo tracks literature and additional online resources on transformers for reinforcement learning. We provide a short summary of each paper. Though we have tried our best to include all relevant works, it's possible that we might have missed your work. Please feel free to create an issue if you want your work to be added.
 
 While we were preparing this repo, we noticed the [Awesome-Decision-Transformer](https://github.com/opendilab/awesome-decision-transformer) repo that also covers decision transformer literature. Awesome-Reinforcement-Learning does not provide paper summaries but lists the experiment environment used in each paper. We believe both repos are helpful for beginners to get started on Transformers for RL. If you find these resources to be useful, please follow and star both repos!  
 
-- [Transformers for Reinforcement Learning ![Awesome](https://awesome.re)](#transformers-for-reinforcement-learning-)
+- [Awesome Transformers for Reinforcement Learning](#awesome-transformers-for-reinforcement-learning)
   - [Papers](#papers)
     - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
     - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
