@@ -50,6 +50,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [SMART: self-supervised multi-task pretraining with control transformers](#smart-self-supervised-multi-task-pretraining-with-control-transformers)
     - [Hyper-decision transformer for efficient online policy adaptation](#hyper-decision-transformer-for-efficient-online-policy-adaptation)
     - [Multi-agent multi-game entity transformer](#multi-agent-multi-game-entity-transformer)
+  - [Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels](#evaluating-vision-transformer-methods-for-deep-reinforcement-learning-from-pixels)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -377,6 +378,14 @@ This work focuses on adapting DT to unseen novel tasks. An adaptation module is 
 ### Multi-agent multi-game entity transformer
 
 **OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=cytNlkyjWOq)
+
+--------
+
+## Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels
+
+**arXiv** [[Paper]](https://arxiv.org/pdf/2204.04905.pdf)
+
+The authors compared ViTs and CNNs in image-based DRL tasks. They found that CNNs still perform better than ViTs. 
 
 --------
 
