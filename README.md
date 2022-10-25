@@ -52,6 +52,9 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Multi-agent multi-game entity transformer](#multi-agent-multi-game-entity-transformer)
   - [Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels](#evaluating-vision-transformer-methods-for-deep-reinforcement-learning-from-pixels)
   - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](#video-pretraining-vpt-learning-to-act-by-watching-unlabeled-online-videos)
+  - [Behavior Cloned Transformers are Neurosymbolic Reasoners](#behavior-cloned-transformers-are-neurosymbolic-reasoners)
+  - [Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning](#exploiting-transformer-in-reinforcement-learning-for-interpretable-temporal-logic-motion-planning)
+  - [Transformers for One-Shot Visual Imitation](#transformers-for-one-shot-visual-imitation)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -395,6 +398,24 @@ The authors compared ViTs and CNNs in image-based DRL tasks. They found that CNN
 **arXiv** [[Paper]](https://arxiv.org/pdf/2206.11795.pdf)
 
 The authors apply semi-supervised imitation learning to enable agents to learn to act by watching online unlabeled videos.  
+
+--------
+
+## Behavior Cloned Transformers are Neurosymbolic Reasoners
+
+**arXiv** [[Paper]](https://arxiv.org/pdf/2210.07382.pdf)
+
+--------
+
+## Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning
+
+**arXiv** [[Paper]](https://arxiv.org/pdf/2209.13220.pdf)
+
+--------
+
+## Transformers for One-Shot Visual Imitation
+
+**CoRL** [[paper]](https://proceedings.mlr.press/v155/dasari21a.html)
 
 --------
 
