@@ -51,6 +51,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Hyper-decision transformer for efficient online policy adaptation](#hyper-decision-transformer-for-efficient-online-policy-adaptation)
     - [Multi-agent multi-game entity transformer](#multi-agent-multi-game-entity-transformer)
   - [Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels](#evaluating-vision-transformer-methods-for-deep-reinforcement-learning-from-pixels)
+  - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](#video-pretraining-vpt-learning-to-act-by-watching-unlabeled-online-videos)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -385,7 +386,15 @@ This work focuses on adapting DT to unseen novel tasks. An adaptation module is 
 
 **arXiv** [[Paper]](https://arxiv.org/pdf/2204.04905.pdf)
 
-The authors compared ViTs and CNNs in image-based DRL tasks. They found that CNNs still perform better than ViTs. 
+The authors compared ViTs and CNNs in image-based DRL tasks. They found that CNNs still perform better than ViTs.  
+
+--------
+
+## Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos
+
+**arXiv** [[Paper]](https://arxiv.org/pdf/2206.11795.pdf)
+
+The authors apply semi-supervised imitation learning to enable agents to learn to act by watching online unlabeled videos.  
 
 --------
 
