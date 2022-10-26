@@ -55,6 +55,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
   - [Behavior Cloned Transformers are Neurosymbolic Reasoners](#behavior-cloned-transformers-are-neurosymbolic-reasoners)
   - [Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning](#exploiting-transformer-in-reinforcement-learning-for-interpretable-temporal-logic-motion-planning)
   - [Transformers for One-Shot Visual Imitation](#transformers-for-one-shot-visual-imitation)
+  - [Self-Attentional Credit Assignment for Transfer in Reinforcement Learning](#self-attentional-credit-assignment-for-transfer-in-reinforcement-learning)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -416,6 +417,12 @@ The authors apply semi-supervised imitation learning to enable agents to learn t
 ## Transformers for One-Shot Visual Imitation
 
 **CoRL** [[paper]](https://proceedings.mlr.press/v155/dasari21a.html)
+
+--------
+
+## Self-Attentional Credit Assignment for Transfer in Reinforcement Learning
+
+**arXiv** [[paper]](https://arxiv.org/pdf/1907.08027.pdf)
 
 --------
 
