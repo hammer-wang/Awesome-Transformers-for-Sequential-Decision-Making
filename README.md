@@ -11,6 +11,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
     - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
     - [Offline Reinforcement Learning as One Big Sequence Modeling Problem](#offline-reinforcement-learning-as-one-big-sequence-modeling-problem)
+    - [Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation](#efficient-transformers-in-reinforcement-learning-using-actor-learner-distillation)
     - [Generalized Decision Transformer for Offline Hindsight Information Matching](#generalized-decision-transformer-for-offline-hindsight-information-matching)
     - [RvS: what is essential for offline RL via supervised learning?](#rvs-what-is-essential-for-offline-rl-via-supervised-learning)
     - [Online Decision Transformer](#online-decision-transformer)
@@ -82,6 +83,13 @@ A seminal work that proposed a supervised learning framework based on transforme
 
 **NeurIPS'21** [[Paper]](https://arxiv.org/abs/2106.02039) [[Code]](https://github.com/JannerM/trajectory-transformer)  
 This is another seminal work on applying transformers to RL and it was concurrent to Decision Transformer. The authors proposed Trajectory Transformer (TT) that combines transformers and beam search as a model-based approach for offline RL.  
+
+--------
+
+### Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation
+
+**ICLR'21** [[Paper]](https://openreview.net/forum?id=uR9LaO_QxF)
+This paper introduces a distillation procedure that transfers learning progress from a large capacity learner model to a small capacity actor model. The proposed method can reduce the inference latency of the deployed RL agent.  
 
 --------
 
