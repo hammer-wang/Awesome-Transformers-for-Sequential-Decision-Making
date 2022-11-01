@@ -51,12 +51,12 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [SMART: self-supervised multi-task pretraining with control transformers](#smart-self-supervised-multi-task-pretraining-with-control-transformers)
     - [Hyper-decision transformer for efficient online policy adaptation](#hyper-decision-transformer-for-efficient-online-policy-adaptation)
     - [Multi-agent multi-game entity transformer](#multi-agent-multi-game-entity-transformer)
-  - [Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels](#evaluating-vision-transformer-methods-for-deep-reinforcement-learning-from-pixels)
-  - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](#video-pretraining-vpt-learning-to-act-by-watching-unlabeled-online-videos)
-  - [Behavior Cloned Transformers are Neurosymbolic Reasoners](#behavior-cloned-transformers-are-neurosymbolic-reasoners)
-  - [Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning](#exploiting-transformer-in-reinforcement-learning-for-interpretable-temporal-logic-motion-planning)
-  - [Transformers for One-Shot Visual Imitation](#transformers-for-one-shot-visual-imitation)
-  - [Self-Attentional Credit Assignment for Transfer in Reinforcement Learning](#self-attentional-credit-assignment-for-transfer-in-reinforcement-learning)
+    - [Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels](#evaluating-vision-transformer-methods-for-deep-reinforcement-learning-from-pixels)
+    - [Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos](#video-pretraining-vpt-learning-to-act-by-watching-unlabeled-online-videos)
+    - [Behavior Cloned Transformers are Neurosymbolic Reasoners](#behavior-cloned-transformers-are-neurosymbolic-reasoners)
+    - [Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning](#exploiting-transformer-in-reinforcement-learning-for-interpretable-temporal-logic-motion-planning)
+    - [Transformers for One-Shot Visual Imitation](#transformers-for-one-shot-visual-imitation)
+    - [Self-Attentional Credit Assignment for Transfer in Reinforcement Learning](#self-attentional-credit-assignment-for-transfer-in-reinforcement-learning)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -394,7 +394,7 @@ This work focuses on adapting DT to unseen novel tasks. An adaptation module is 
 
 --------
 
-## Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels
+### Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels
 
 **arXiv** [[Paper]](https://arxiv.org/pdf/2204.04905.pdf)
 
@@ -402,7 +402,7 @@ The authors compared ViTs and CNNs in image-based DRL tasks. They found that CNN
 
 --------
 
-## Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos
+### Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos
 
 **arXiv** [[Paper]](https://arxiv.org/pdf/2206.11795.pdf)
 
@@ -410,25 +410,25 @@ The authors apply semi-supervised imitation learning to enable agents to learn t
 
 --------
 
-## Behavior Cloned Transformers are Neurosymbolic Reasoners
+### Behavior Cloned Transformers are Neurosymbolic Reasoners
 
 **arXiv** [[Paper]](https://arxiv.org/pdf/2210.07382.pdf)
 
 --------
 
-## Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning
+### Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning
 
 **arXiv** [[Paper]](https://arxiv.org/pdf/2209.13220.pdf)
 
 --------
 
-## Transformers for One-Shot Visual Imitation
+### Transformers for One-Shot Visual Imitation
 
 **CoRL** [[paper]](https://proceedings.mlr.press/v155/dasari21a.html)
 
 --------
 
-## Self-Attentional Credit Assignment for Transfer in Reinforcement Learning
+### Self-Attentional Credit Assignment for Transfer in Reinforcement Learning
 
 **arXiv** [[paper]](https://arxiv.org/pdf/1907.08027.pdf)
 
