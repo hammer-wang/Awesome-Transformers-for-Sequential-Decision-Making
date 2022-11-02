@@ -57,6 +57,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning](#exploiting-transformer-in-reinforcement-learning-for-interpretable-temporal-logic-motion-planning)
     - [Transformers for One-Shot Visual Imitation](#transformers-for-one-shot-visual-imitation)
     - [Self-Attentional Credit Assignment for Transfer in Reinforcement Learning](#self-attentional-credit-assignment-for-transfer-in-reinforcement-learning)
+    - [IN-CONTEXT REINFORCEMENT LEARNING WITH ALGORITHM DISTILLATION](#in-context-reinforcement-learning-with-algorithm-distillation)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -396,7 +397,7 @@ This work focuses on adapting DT to unseen novel tasks. An adaptation module is 
 
 ### Evaluating Vision Transformer Methods for Deep Reinforcement Learning from Pixels
 
-**arXiv** [[Paper]](https://arxiv.org/pdf/2204.04905.pdf)
+**arXiv'22** [[Paper]](https://arxiv.org/pdf/2204.04905.pdf)
 
 The authors compared ViTs and CNNs in image-based DRL tasks. They found that CNNs still perform better than ViTs.  
 
@@ -404,7 +405,7 @@ The authors compared ViTs and CNNs in image-based DRL tasks. They found that CNN
 
 ### Video PreTraining (VPT): Learning to Act by Watching Unlabeled Online Videos
 
-**arXiv** [[Paper]](https://arxiv.org/pdf/2206.11795.pdf)
+**arXiv'22** [[Paper]](https://arxiv.org/pdf/2206.11795.pdf)
 
 The authors apply semi-supervised imitation learning to enable agents to learn to act by watching online unlabeled videos.  
 
@@ -412,25 +413,31 @@ The authors apply semi-supervised imitation learning to enable agents to learn t
 
 ### Behavior Cloned Transformers are Neurosymbolic Reasoners
 
-**arXiv** [[Paper]](https://arxiv.org/pdf/2210.07382.pdf)
+**arXiv'22** [[Paper]](https://arxiv.org/pdf/2210.07382.pdf)
 
 --------
 
 ### Exploiting Transformer in Reinforcement Learning for Interpretable Temporal Logic Motion Planning
 
-**arXiv** [[Paper]](https://arxiv.org/pdf/2209.13220.pdf)
+**arXiv'22** [[Paper]](https://arxiv.org/pdf/2209.13220.pdf)
 
 --------
 
 ### Transformers for One-Shot Visual Imitation
 
-**CoRL** [[paper]](https://proceedings.mlr.press/v155/dasari21a.html)
+**CoRL'21** [[paper]](https://proceedings.mlr.press/v155/dasari21a.html)
 
 --------
 
 ### Self-Attentional Credit Assignment for Transfer in Reinforcement Learning
 
-**arXiv** [[paper]](https://arxiv.org/pdf/1907.08027.pdf)
+**IJCAI'20** [[paper]](https://www.ijcai.org/proceedings/2020/0368.pdf)
+
+--------
+
+### IN-CONTEXT REINFORCEMENT LEARNING WITH ALGORITHM DISTILLATION
+
+**arXiv'22** [[paper]](https://arxiv.org/pdf/2210.14215.pdf)
 
 --------
 
