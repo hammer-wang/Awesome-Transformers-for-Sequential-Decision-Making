@@ -10,7 +10,9 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
   - [Papers](#papers)
     - [:new: NeurIPS'22](#new-neurips22)
       - [Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing](#transformer-based-working-memory-for-multiagent-reinforcement-learning-with-action-parsing)
-      - [You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environments](#you-cant-count-on-luck-why-decision-transformers-fail-in-stochastic-environments)
+      - [You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environment](#you-cant-count-on-luck-why-decision-transformers-fail-in-stochastic-environment)
+      - [Behavior Transformers: Cloning k modes with one stone](#behavior-transformers-cloning-k-modes-with-one-stone)
+      - [On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning](#on-the-effect-of-pre-training-for-transformer-in-different-modality-on-offline-reinforcement-learning)
     - [Previous](#previous)
       - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
       - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
@@ -26,7 +28,6 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [Bootstrapped Transformer for Offline Reinforcement Learning](#bootstrapped-transformer-for-offline-reinforcement-learning)
       - [Towards Flexible Inference in Sequential Decision Problems via Bidirectional Transformers](#towards-flexible-inference-in-sequential-decision-problems-via-bidirectional-transformers)
       - [Phasic Self-Imitative Reduction for Sparse-Reward Goal-Conditioned Reinforcement Learning](#phasic-self-imitative-reduction-for-sparse-reward-goal-conditioned-reinforcement-learning)
-      - [Behavior Transformers: Cloning k modes with one stone](#behavior-transformers-cloning-k-modes-with-one-stone)
       - [Deep Reinforcement Learning with Swin Transformer](#deep-reinforcement-learning-with-swin-transformer)
       - [Efficient Planning in a Compact Latent Action Space](#efficient-planning-in-a-compact-latent-action-space)
       - [Going Beyond Linear Transformers with Recurrent Fast Weight Programmers](#going-beyond-linear-transformers-with-recurrent-fast-weight-programmers)
@@ -68,23 +69,33 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 
 ### :new: NeurIPS'22
 
---------
+#### Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing  
 
-#### Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing
-
-**NeurIPS'22** [[paper]](https://openreview.net/pdf?id=pd6ipu3jDw)
+[[paper]](https://openreview.net/pdf?id=pd6ipu3jDw)
 
 --------
 
-#### You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environments
+#### You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environment  
 
-**NeurIPS'22** [[Paper]](https://arxiv.org/abs/2205.15967)  
+[[Paper]](https://arxiv.org/abs/2205.15967)  
 
 Issues of transformers in stochastic environment. The proposed method learns to cluster trajectories and conditions on average cluster returns.  
 
-### Previous
+--------
+
+#### Behavior Transformers: Cloning k modes with one stone
+
+[[Paper]](https://arxiv.org/abs/2206.11251) [[Code]](https://github.com/notmahi/bet)  
+
+The authors proposed Behavior Transformer to model unlabeled demonstration data with multiple modes. It introduces action correction to predict multi-modal continuous actions.  
 
 --------
+
+#### On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning
+
+[[paper]](https://openreview.net/pdf?id=9GXoMs__ckJ)
+
+### Previous
 
 #### Stabilizing Transformers for Reinforcement Learning
 
@@ -191,14 +202,6 @@ Applied random masking to pretrain transformers for RL.
 **ICML'22** [[Paper]](https://arxiv.org/abs/2204.13326)  
 
 This work combines online RL and offline SL. The online phase is used for both RL training and data collection. In the offline phase, only successful trajectories are used for SL. The authors show that this approach performs well in sparse-reward settings. The authors tested DT for the SL phase and found that it was brittle and performed worse than a simple BC. This result show that the DT training stability requires more research. 
-
---------
-
-#### Behavior Transformers: Cloning k modes with one stone
-
-**arXiv** [[Paper]](https://arxiv.org/abs/2206.11251) [[Code]](https://github.com/notmahi/bet)  
-
-The authors proposed Behavior Transformer to model unlabeled demonstration data with multiple modes. It introduces action correction to predict multi-modal continuous actions.  
 
 --------
 
