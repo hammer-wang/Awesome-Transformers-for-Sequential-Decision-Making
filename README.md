@@ -13,6 +13,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environment](#you-cant-count-on-luck-why-decision-transformers-fail-in-stochastic-environment)
       - [Behavior Transformers: Cloning k modes with one stone](#behavior-transformers-cloning-k-modes-with-one-stone)
       - [On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning](#on-the-effect-of-pre-training-for-transformer-in-different-modality-on-offline-reinforcement-learning)
+      - [Multi-Game Decision Transformers](#multi-game-decision-transformers)
     - [Previous](#previous)
       - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
       - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
@@ -32,7 +33,6 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [Efficient Planning in a Compact Latent Action Space](#efficient-planning-in-a-compact-latent-action-space)
       - [Going Beyond Linear Transformers with Recurrent Fast Weight Programmers](#going-beyond-linear-transformers-with-recurrent-fast-weight-programmers)
       - [GPT-critic: offline reinforcement learning for end-to-end task-oriented dialogue systems](#gpt-critic-offline-reinforcement-learning-for-end-to-end-task-oriented-dialogue-systems)
-      - [Multi-Game Decision Transformers](#multi-game-decision-transformers)
       - [Offline pre-trained multi-agent decision transformer: one big sequence model tackles all smac tasks](#offline-pre-trained-multi-agent-decision-transformer-one-big-sequence-model-tackles-all-smac-tasks)
       - [Q-learning Decision Transformer: Leveraging Dynamic Programming for Conditional Sequence Modelling in Offline RL](#q-learning-decision-transformer-leveraging-dynamic-programming-for-conditional-sequence-modelling-in-offline-rl)
       - [StARformer: Transformer with State-Action-Reward Representations for Robot Learning](#starformer-transformer-with-state-action-reward-representations-for-robot-learning)
@@ -94,6 +94,16 @@ The authors proposed Behavior Transformer to model unlabeled demonstration data 
 #### On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning
 
 [[paper]](https://openreview.net/pdf?id=9GXoMs__ckJ)
+
+--------
+
+#### Multi-Game Decision Transformers
+
+[[Paper]](https://arxiv.org/abs/2205.15241)  
+
+Similar to GATO, this paper studies the applying a single transformer-based RL agent to play multiple games.  
+
+--------
 
 ### Previous
 
@@ -234,14 +244,6 @@ A new transformer architecture is proposed and experiments on RL show large impr
 **ICLR'22** [[Paper]](https://openreview.net/pdf?id=qaxhBG1UUaS)
 
 GPT-2 trained in an offline RL manner for dialogue generation.  
-
---------
-
-#### Multi-Game Decision Transformers
-
-**arXiv** [[Paper]](https://arxiv.org/abs/2205.15241)  
-
-Similar to GATO, this paper studies the applying a single transformer-based RL agent to play multiple games.  
 
 --------
 
