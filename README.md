@@ -58,6 +58,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Transformers for One-Shot Visual Imitation](#transformers-for-one-shot-visual-imitation)
     - [Self-Attentional Credit Assignment for Transfer in Reinforcement Learning](#self-attentional-credit-assignment-for-transfer-in-reinforcement-learning)
     - [IN-CONTEXT REINFORCEMENT LEARNING WITH ALGORITHM DISTILLATION](#in-context-reinforcement-learning-with-algorithm-distillation)
+    - [Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing](#transformer-based-working-memory-for-multiagent-reinforcement-learning-with-action-parsing)
   - [Other Resources](#other-resources)
   - [License](#license)
 
@@ -438,6 +439,12 @@ The authors apply semi-supervised imitation learning to enable agents to learn t
 ### IN-CONTEXT REINFORCEMENT LEARNING WITH ALGORITHM DISTILLATION
 
 **arXiv'22** [[paper]](https://arxiv.org/pdf/2210.14215.pdf)
+
+--------
+
+### Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing
+
+**NeurIPS'22** [[paper]](https://openreview.net/pdf?id=pd6ipu3jDw)
 
 --------
 
