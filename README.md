@@ -14,6 +14,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [Behavior Transformers: Cloning k modes with one stone](#behavior-transformers-cloning-k-modes-with-one-stone)
       - [On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning](#on-the-effect-of-pre-training-for-transformer-in-different-modality-on-offline-reinforcement-learning)
       - [Multi-Game Decision Transformers](#multi-game-decision-transformers)
+      - [Bootstrapped Transformer for Offline Reinforcement Learning](#bootstrapped-transformer-for-offline-reinforcement-learning)
     - [Previous](#previous)
       - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
       - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
@@ -26,7 +27,6 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning](#addressing-optimism-bias-in-sequence-modeling-for-reinforcement-learning)
       - [Can Wikipedia help offline reinforcement learning?](#can-wikipedia-help-offline-reinforcement-learning)
       - [A Generalist Agent](#a-generalist-agent)
-      - [Bootstrapped Transformer for Offline Reinforcement Learning](#bootstrapped-transformer-for-offline-reinforcement-learning)
       - [Towards Flexible Inference in Sequential Decision Problems via Bidirectional Transformers](#towards-flexible-inference-in-sequential-decision-problems-via-bidirectional-transformers)
       - [Phasic Self-Imitative Reduction for Sparse-Reward Goal-Conditioned Reinforcement Learning](#phasic-self-imitative-reduction-for-sparse-reward-goal-conditioned-reinforcement-learning)
       - [Deep Reinforcement Learning with Swin Transformer](#deep-reinforcement-learning-with-swin-transformer)
@@ -102,6 +102,14 @@ The authors proposed Behavior Transformer to model unlabeled demonstration data 
 [[Paper]](https://arxiv.org/abs/2205.15241)  
 
 Similar to GATO, this paper studies the applying a single transformer-based RL agent to play multiple games.  
+
+--------
+
+#### Bootstrapped Transformer for Offline Reinforcement Learning
+
+[[Paper]](https://arxiv.org/abs/2206.08569)  
+
+To address the offline data limitation, this paper uses the learned dynamics model to generate data. It’s a data augmentation method. It uses trajectory transformer as the model.  
 
 --------
 
@@ -188,14 +196,6 @@ Training transformers on RL datasets from scratch could lead to slow convergence
 **arXiv** [[Paper]](https://arxiv.org/abs/2205.06175)
 
 A transformer-based RL agent (GATO) is trained on multi-modal data to perform robot manipulation, chat, play Atari games, caption images simultaneously. The agent will determine by itself what to output based on its context.  
-
---------
-
-#### Bootstrapped Transformer for Offline Reinforcement Learning
-
-**arXiv** [[Paper]](https://arxiv.org/abs/2206.08569)  
-
-To address the offline data limitation, this paper uses the learned dynamics model to generate data. It’s a data augmentation method. It uses trajectory transformer as the model.  
 
 --------
 
