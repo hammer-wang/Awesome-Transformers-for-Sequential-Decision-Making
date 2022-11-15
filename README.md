@@ -17,6 +17,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning](#on-the-effect-of-pre-training-for-transformer-in-different-modality-on-offline-reinforcement-learning)
       - [Multi-Game Decision Transformers](#multi-game-decision-transformers)
       - [Bootstrapped Transformer for Offline Reinforcement Learning](#bootstrapped-transformer-for-offline-reinforcement-learning)
+      - [Relational Reasoning via Set Transformers: Provable Efficiency and Applications to MARL](#relational-reasoning-via-set-transformers-provable-efficiency-and-applications-to-marl)
     - [Previous](#previous)
       - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
       - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
@@ -124,6 +125,12 @@ Similar to GATO, this paper studies the applying a single transformer-based RL a
 [[Paper]](https://arxiv.org/abs/2206.08569)  
 
 To address the offline data limitation, this paper uses the learned dynamics model to generate data. It’s a data augmentation method. It uses trajectory transformer as the model.  
+
+--------
+
+#### Relational Reasoning via Set Transformers: Provable Efficiency and Applications to MARL
+
+[[Paper]](https://arxiv.org/abs/2209.09845)  
 
 --------
 
