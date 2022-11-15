@@ -10,6 +10,8 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
   - [Papers](#papers)
     - [:new: NeurIPS'22](#new-neurips22)
       - [Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing](#transformer-based-working-memory-for-multiagent-reinforcement-learning-with-action-parsing)
+      - [Pre-Trained Language Models for Interactive Decision-Making](#pre-trained-language-models-for-interactive-decision-making)
+      - [Masked Autoencoding for Scalable and Generalizable Decision Making](#masked-autoencoding-for-scalable-and-generalizable-decision-making)
       - [You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environment](#you-cant-count-on-luck-why-decision-transformers-fail-in-stochastic-environment)
       - [Behavior Transformers: Cloning k modes with one stone](#behavior-transformers-cloning-k-modes-with-one-stone)
       - [On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning](#on-the-effect-of-pre-training-for-transformer-in-different-modality-on-offline-reinforcement-learning)
@@ -72,6 +74,18 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 #### Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing  
 
 [[paper]](https://openreview.net/pdf?id=pd6ipu3jDw)
+
+--------
+
+#### Pre-Trained Language Models for Interactive Decision-Making  
+
+[[paper]](https://arxiv.org/pdf/2202.01771.pdf)
+
+--------
+
+#### Masked Autoencoding for Scalable and Generalizable Decision Making
+
+[[paper]](https://openreview.net/pdf?id=lNokkSaUbfV)
 
 --------
 
