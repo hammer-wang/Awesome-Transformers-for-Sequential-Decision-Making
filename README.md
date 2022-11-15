@@ -21,6 +21,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
     - [Previous](#previous)
       - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
       - [Representation Matters: Offline Pretraining for Sequential Decision Making](#representation-matters-offline-pretraining-for-sequential-decision-making)
+      - [Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation](#stabilizing-deep-q-learning-with-convnets-and-vision-transformers-under-data-augmentation)
       - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
       - [Offline Reinforcement Learning as One Big Sequence Modeling Problem](#offline-reinforcement-learning-as-one-big-sequence-modeling-problem)
       - [Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation](#efficient-transformers-in-reinforcement-learning-using-actor-learner-distillation)
@@ -148,6 +149,12 @@ One of the first works succssfully applying transformers in the RL settings. Thi
 #### Representation Matters: Offline Pretraining for Sequential Decision Making
 
 **ICML'21** [[Paper]](https://proceedings.mlr.press/v139/yang21h.html)  
+
+--------
+
+#### Stabilizing Deep Q-Learning with ConvNets and Vision Transformers under Data Augmentation
+
+**NeurIPS'21** [[Paper]](https://proceedings.neurips.cc/paper/2021/file/1e0f65eb20acbfb27ee05ddc000b50ec-Paper.pdf)  
 
 --------
 
