@@ -20,6 +20,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [Relational Reasoning via Set Transformers: Provable Efficiency and Applications to MARL](#relational-reasoning-via-set-transformers-provable-efficiency-and-applications-to-marl)
     - [Previous](#previous)
       - [Stabilizing Transformers for Reinforcement Learning](#stabilizing-transformers-for-reinforcement-learning)
+      - [Representation Matters: Offline Pretraining for Sequential Decision Making](#representation-matters-offline-pretraining-for-sequential-decision-making)
       - [Decision Transformer: Reinforcement Learning via Sequence Modeling](#decision-transformer-reinforcement-learning-via-sequence-modeling)
       - [Offline Reinforcement Learning as One Big Sequence Modeling Problem](#offline-reinforcement-learning-as-one-big-sequence-modeling-problem)
       - [Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation](#efficient-transformers-in-reinforcement-learning-using-actor-learner-distillation)
@@ -141,6 +142,12 @@ To address the offline data limitation, this paper uses the learned dynamics mod
 **ICML'20** [[Paper]](http://proceedings.mlr.press/v119/parisotto20a/parisotto20a.pdf)  
 
 One of the first works succssfully applying transformers in the RL settings. This work aims to replace LSTM used in online RL with Transformers. The authors observed that training large-scale transformers in RL settings is unstable. Thus they proposed the Gate Transformer-XL architecture and showed that the novel architecture outperformed LSTMs in the DMLab-30 benchmark with a good training stability.  
+
+--------
+
+#### Representation Matters: Offline Pretraining for Sequential Decision Making
+
+**ICML'21** [[Paper]](https://proceedings.mlr.press/v139/yang21h.html)  
 
 --------
 
