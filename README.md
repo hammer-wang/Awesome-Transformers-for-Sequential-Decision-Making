@@ -12,6 +12,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing](#transformer-based-working-memory-for-multiagent-reinforcement-learning-with-action-parsing)
       - [Pre-Trained Language Models for Interactive Decision-Making](#pre-trained-language-models-for-interactive-decision-making)
       - [Masked Autoencoding for Scalable and Generalizable Decision Making](#masked-autoencoding-for-scalable-and-generalizable-decision-making)
+      - [Uni[MASK]: Unified Inference in Sequential Decision Problems](#unimask-unified-inference-in-sequential-decision-problems)
       - [You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environment](#you-cant-count-on-luck-why-decision-transformers-fail-in-stochastic-environment)
       - [Behavior Transformers: Cloning k modes with one stone](#behavior-transformers-cloning-k-modes-with-one-stone)
       - [On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning](#on-the-effect-of-pre-training-for-transformer-in-different-modality-on-offline-reinforcement-learning)
@@ -89,6 +90,12 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 #### Masked Autoencoding for Scalable and Generalizable Decision Making
 
 [[paper]](https://openreview.net/pdf?id=lNokkSaUbfV)
+
+--------
+
+#### Uni[MASK]: Unified Inference in Sequential Decision Problems
+
+[[paper]](https://openreview.net/pdf?id=GisHNaleWiA)
 
 --------
 
