@@ -1,4 +1,4 @@
-# Awesome Transformers for Reinforcement Learning  
+# Awesome Transformers for Sequential Decision Making
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -8,7 +8,7 @@ This repo tracks literature and additional online resources on transformers for 
 
 While we were preparing this repo, we noticed the [Awesome-Decision-Transformer](https://github.com/opendilab/awesome-decision-transformer) repo that also covers decision transformer literature. Awesome-Reinforcement-Learning does not provide paper summaries but lists the experiment environment used in each paper. We believe both repos are helpful for beginners to get started on Transformers for RL. If you find these resources to be useful, please follow and star both repos!  
 
-- [Awesome Transformers for Reinforcement Learning](#awesome-transformers-for-reinforcement-learning)
+- [Awesome Transformers for Sequential Decision Making](#awesome-transformers-for-sequential-decision-making)
   - [Papers](#papers)
     - [:new: NeurIPS'22](#new-neurips22)
       - [Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing](#transformer-based-working-memory-for-multiagent-reinforcement-learning-with-action-parsing)
@@ -29,6 +29,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [Offline Reinforcement Learning as One Big Sequence Modeling Problem](#offline-reinforcement-learning-as-one-big-sequence-modeling-problem)
       - [Efficient Transformers in Reinforcement Learning using Actor-Learner Distillation](#efficient-transformers-in-reinforcement-learning-using-actor-learner-distillation)
       - [Generalized Decision Transformer for Offline Hindsight Information Matching](#generalized-decision-transformer-for-offline-hindsight-information-matching)
+      - [Scene Transformer: A unified architecture for predicting multiple agent trajectories](#scene-transformer-a-unified-architecture-for-predicting-multiple-agent-trajectories)
       - [RvS: what is essential for offline RL via supervised learning?](#rvs-what-is-essential-for-offline-rl-via-supervised-learning)
       - [Online Decision Transformer](#online-decision-transformer)
       - [Prompting Decision Transformer for Few-Shot Policy Generalization](#prompting-decision-transformer-for-few-shot-policy-generalization)
@@ -91,15 +92,21 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 
 #### Masked Autoencoding for Scalable and Generalizable Decision Making
 
+\# MaskDP
+
 [[paper]](https://openreview.net/pdf?id=lNokkSaUbfV)
 
-One limitation of DT is the requirement of reward-labeled dataset. In this paper, the authors borrow idea from masked language modeling for sequential decision making and develop a method to pretrain transformers to predict sequential decisions without reward-labeled datasets. They show that both goal-reaching and offline RL can be achieved by different masking strategy at inference time. However, offline RL is slightly more complex than simple goal-reaching as the goal is to achieve maximum return, so the authors also add a critic head and an actor head on the pretrained transformer backbone. 
+One limitation of DT is the requirement of reward-labeled dataset. In this paper, the authors borrow idea from masked language modeling for sequential decision making and develop a method called MaskDP to pretrain transformers to predict sequential decisions without reward-labeled datasets. They show that both goal-reaching and offline RL can be achieved by different masking strategy at inference time. However, offline RL is slightly more complex than simple goal-reaching as the goal is to achieve maximum return, so the authors also add a critic head and an actor head on the pretrained transformer backbone.  
 
 --------
 
-#### Uni[MASK]: Unified Inference in Sequential Decision Problems
+#### Uni[MASK]: Unified Inference in Sequential Decision Problems  
+
+\# Uni[MASK]
 
 [[paper]](https://openreview.net/pdf?id=GisHNaleWiA)
+
+This paper also investigates pretraining for sequential decision making and, similar to MaskDP, the authors point out that many sequential decision making tasks can be achieved by different masking schemes. Together with MaskDP, Uni[MASK] could inspire a new paradigm for sequential decision making.
 
 --------
 
@@ -194,6 +201,12 @@ This paper introduces a distillation procedure that transfers learning progress 
 
 **ICLR'22** [[Paper]](https://arxiv.org/abs/2111.10364) [[Code]](https://github.com/frt03/generalized_dt)  
 The paper derived a RL problem formulation called Hindsight Information Matching (HIM) from many recently proposed RL algorithms that use future trajectory information to accelerate the learning of a conditional policy. The authors discussed three HIM variations including Generalized DT, Categorical DT, and Bi-Directional DT.  
+
+--------
+
+#### Scene Transformer: A unified architecture for predicting multiple agent trajectories
+
+**ICLR'22** [[Paper]](https://arxiv.org/abs/2106.08417)  
 
 --------
 
