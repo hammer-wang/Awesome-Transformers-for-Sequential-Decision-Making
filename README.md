@@ -2,7 +2,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-This repo tracks literature and additional online resources on transformers for reinforcement learning. We provide a short summary of each paper. Though we have tried our best to include all relevant works, it's possible that we might have missed your work. Please feel free to create an issue if you want your work to be added.
+Recent progress on Transformers have made researchers to re-think sequential decision making.  
+
+This repo tracks literature and additional online resources on transformers for reinforcement learning and more general sequential decision making problems. We provide a short summary of each paper. Though we have tried our best to include all relevant works, it's possible that we might have missed your work. Please feel free to create an issue if you want your work to be added.
 
 While we were preparing this repo, we noticed the [Awesome-Decision-Transformer](https://github.com/opendilab/awesome-decision-transformer) repo that also covers decision transformer literature. Awesome-Reinforcement-Learning does not provide paper summaries but lists the experiment environment used in each paper. We believe both repos are helpful for beginners to get started on Transformers for RL. If you find these resources to be useful, please follow and star both repos!  
 
@@ -90,6 +92,8 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 #### Masked Autoencoding for Scalable and Generalizable Decision Making
 
 [[paper]](https://openreview.net/pdf?id=lNokkSaUbfV)
+
+One limitation of DT is the requirement of reward-labeled dataset. In this paper, the authors borrow idea from masked language modeling for sequential decision making and develop a method to pretrain transformers to predict sequential decisions without reward-labeled datasets. They show that both goal-reaching and offline RL can be achieved by different masking strategy at inference time. However, offline RL is slightly more complex than simple goal-reaching as the goal is to achieve maximum return, so the authors also add a critic head and an actor head on the pretrained transformer backbone. 
 
 --------
 
