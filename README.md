@@ -112,6 +112,8 @@ This paper also investigates pretraining for sequential decision making and, sim
 
 #### You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environment  
 
+\# ESPER
+
 [[Paper]](https://arxiv.org/abs/2205.15967)  
 
 Issues of transformers in stochastic environment. The proposed method learns to cluster trajectories and conditions on average cluster returns.  
@@ -119,6 +121,8 @@ Issues of transformers in stochastic environment. The proposed method learns to 
 --------
 
 #### Behavior Transformers: Cloning k modes with one stone
+
+\# BeT
 
 [[Paper]](https://arxiv.org/abs/2206.11251) [[Code]](https://github.com/notmahi/bet)  
 
