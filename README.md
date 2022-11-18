@@ -54,7 +54,7 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
       - [PACT: Perception-Action Causal Transformer for Autoregressive Robotics Pre-Training](#pact-perception-action-causal-transformer-for-autoregressive-robotics-pre-training)
       - [When does return-conditioned supervised learning work for offline reinforcement learning?](#when-does-return-conditioned-supervised-learning-work-for-offline-reinforcement-learning)
       - [Deep Transformer Q-Networks for Partially Observable Reinforcement Learning](#deep-transformer-q-networks-for-partially-observable-reinforcement-learning)
-      - [Contextual transformer for offline reinforcement learning](#contextual-transformer-for-offline-reinforcement-learning)
+      - [Contextual Transformer for Offline Meta Reinforcement Learning](#contextual-transformer-for-offline-meta-reinforcement-learning)
       - [MCTransformer: combining transformers and monte-carlo tree search for offline reinforcement learning](#mctransformer-combining-transformers-and-monte-carlo-tree-search-for-offline-reinforcement-learning)
       - [Pretraining the vision transformer using self-supervised methods for vision based deep reinforcement learning](#pretraining-the-vision-transformer-using-self-supervised-methods-for-vision-based-deep-reinforcement-learning)
       - [Preference Transformer: Modeling Human Preferences using Transformers for RL](#preference-transformer-modeling-human-preferences-using-transformers-for-rl)
@@ -406,9 +406,9 @@ Recurrent neural networks are often used for encoding an agent's history when so
 
 --------
 
-#### Contextual transformer for offline reinforcement learning
+#### Contextual Transformer for Offline Meta Reinforcement Learning
 
-**OpenReview Submission to ICLR'23** [[Paper]](https://openreview.net/pdf?id=7pl0FRiS0Td)  
+**Foundation Models for Deicsion Making Workshop, NeurIPS'22** [[Paper]](https://arxiv.org/abs/2211.08016)  
 
 This paper proposed an approach for learning context vectors that can be used as prompts for the transformers. With the prompts, the authors developed a contextual meta transformers that can leverage the prompt as the task context to improve he performance on unseen tasks.  
 
