@@ -10,11 +10,14 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 
 - [Awesome Transformers for Sequential Decision Making](#awesome-transformers-for-sequential-decision-making)
   - [Papers](#papers)
+    - [:new: ArXiv](#new-arxiv)
+      - [IS CONDITIONAL GENERATIVE MODELING ALL YOU NEED FOR DECISION-MAKING?](#is-conditional-generative-modeling-all-you-need-for-decision-making)
+      - [How Crucial is Transformer in Decision Transformer?](#how-crucial-is-transformer-in-decision-transformer)
     - [:new: NeurIPS'22](#new-neurips22)
       - [Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing](#transformer-based-working-memory-for-multiagent-reinforcement-learning-with-action-parsing)
       - [Pre-Trained Language Models for Interactive Decision-Making](#pre-trained-language-models-for-interactive-decision-making)
       - [Masked Autoencoding for Scalable and Generalizable Decision Making](#masked-autoencoding-for-scalable-and-generalizable-decision-making)
-      - [Uni[MASK]: Unified Inference in Sequential Decision Problems](#unimask-unified-inference-in-sequential-decision-problems)
+      - [UniMASK: Unified Inference in Sequential Decision Problems](#unimask-unified-inference-in-sequential-decision-problems)
       - [You Can’t Count on Luck: Why Decision Transformers Fail in Stochastic Environment](#you-cant-count-on-luck-why-decision-transformers-fail-in-stochastic-environment)
       - [Behavior Transformers: Cloning k modes with one stone](#behavior-transformers-cloning-k-modes-with-one-stone)
       - [On the Effect of Pre-training for Transformer in Different Modality on Offline Reinforcement Learning](#on-the-effect-of-pre-training-for-transformer-in-different-modality-on-offline-reinforcement-learning)
@@ -76,6 +79,20 @@ While we were preparing this repo, we noticed the [Awesome-Decision-Transformer]
 
 ## Papers
 
+### :new: ArXiv
+
+#### IS CONDITIONAL GENERATIVE MODELING ALL YOU NEED FOR DECISION-MAKING?
+
+[[paper]](https://arxiv.org/pdf/2211.15657.pdf)
+
+--------
+
+#### How Crucial is Transformer in Decision Transformer? 
+
+[[paper]](https://arxiv.org/pdf/2211.14655.pdf)
+
+--------
+
 ### :new: NeurIPS'22
 
 #### Transformer-based Working Memory for Multiagent Reinforcement Learning with Action Parsing  
@@ -100,7 +117,7 @@ One limitation of DT is the requirement of reward-labeled dataset. In this paper
 
 --------
 
-#### Uni[MASK]: Unified Inference in Sequential Decision Problems  
+#### UniMASK: Unified Inference in Sequential Decision Problems  
 
 \# Uni[MASK]
 
